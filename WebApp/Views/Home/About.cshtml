@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "About";
+    DateTime now = DateTime.Now;
+    DateTime birthday = new DateTime(2002, 02, 24);
+    DateTime beginningOfStudies = new DateTime(2022, 10, 01);
+    int age = (int)((now - birthday).TotalDays / 365.242199);
+    int year = (int)((now - beginningOfStudies).TotalDays / 365.242199) + 1;
+}
+
+<h1>About Me</h1>
+
+<p>Kamil Keymil72 Podlecki (@age lat)</p>
+
+<h4>Wykształcenie:</h4>
+
+<ol>
+    <ul class="list">
+        Średnie: 
+        <li>
+            <pre>   ➤  Technikum informatyczne</pre>
+        </li>
+        <li>
+            <pre>   ➤   Tytuł: Technik informatyk</pre>
+        </li>
+    </ul>
+    <ul class="list"> Studia
+        <li>
+            <pre>   ➤  Kierunek: Informatyka </pre>
+        </li>
+        <li>
+            <pre>   ➤  Specjalizacja: Technologie programowania</pre>
+        </li>
+        <li>
+            <pre>   ➤  Rok: @year </pre>
+        </li>
+        <li>
+            <pre>   ➤   Przyszł tytuł: Inżynier informatyki</pre>
+        </li>
+    </ul>
+</ol>
+
+<h4>Znajomość technologii</h4>
+<ul>
+    <li>
+        <pre>➤  Kontrola wersji: GIT</pre>
+    </li>
+    <li>
+        <pre>➤  Java: Podstawy</pre>
+    </li>
+    <li>
+        <pre>➤  C#: Średnio zaawansowany</pre>
+    </li>
+    <li>
+        <pre>➤  Html: Średnio zaawansowany</pre>
+    </li>
+    <li>
+        <pre>➤  Js: Podstawy</pre>
+    </li>
+    <li>
+        <pre>➤  Css: Średnio zaawansowany</pre>
+    </li>
+    <li>
+        <pre>➤  SQL: Podstawy</pre>
+    </li>
+    <li>
+        <pre>➤  ASP .NET Core: Podstawy</pre>
+    </li>
+</ul>
+
+
+
+
