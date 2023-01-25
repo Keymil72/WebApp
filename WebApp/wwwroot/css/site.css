@@ -27,25 +27,15 @@ body {
 .list {
     list-style-type: none;
 }
-.container {
-    margin: 0px;
+.main {
     padding: 20px;
-    border: 0px;
-    width: 100%;
-}
-
-.edu {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
 }
 
 .imageDiv {
     border: 1px solid whitesmoke;
     padding: 20px;
     text-align: center;
-    float: unset;
+    float: left;
     background-image: url("/images/zsp.jpg");
     width: 25%;
     height: 50vh;
