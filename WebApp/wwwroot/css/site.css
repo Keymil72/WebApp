@@ -15,8 +15,68 @@ html {
 
 body {
     margin-bottom: 60px;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
+    margin-right: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 .list {
     list-style-type: none;
+}
+.container {
+    margin: 0px;
+    padding: 20px;
+    border: 0px;
+    width: 100%;
+}
+
+.edu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.imageDiv {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    float: unset;
+    background-image: url("/images/zsp.jpg");
+    width: 25%;
+    height: 50vh;
+    border-radius: 50px;
+    position:relative;
+}
+
+.imageDiv:hover {
+    transition-property: color;
+}
+
+    .imageDiv:hover .pop {
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        visibility: visible;
+        transition-duration: 1s;
+        border-radius: 0 0 50px 50px;
+        transition-property: transform, border-radius;
+        transition-timing-function: ease-in-out;
+    }
+
+.pop {
+    text-align: center;
+    vertical-align: central;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    visibility: hidden;
 }
