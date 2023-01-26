@@ -31,17 +31,32 @@ body {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: forestgreen;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
 .imageDiv {
     border: 1px solid whitesmoke;
     padding: 20px;
+    margin: 4%;
     text-align: center;
     float: left;
-    background-image: url("/images/zsp.jpg");
     width: 25%;
     height: 50vh;
     border-radius: 50px;
-    position:relative;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
 
 .imageDiv:hover {
     transition-property: color;
@@ -54,12 +69,12 @@ body {
         transition-duration: 1s;
         border-radius: 0 0 50px 50px;
         transition-property: transform, border-radius;
-        transition-timing-function: ease-in-out;
     }
 
-.pop {
+
+.pop{
     text-align: center;
-    vertical-align: central;
+    vertical-align: middle;
     position: absolute;
     top: 0;
     left: 0;
@@ -69,4 +84,6 @@ body {
     background-color: rgb(22, 22, 22);
     text-align: center;
     visibility: hidden;
+    justify-content: center;
+
 }
